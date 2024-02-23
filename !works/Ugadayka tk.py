@@ -18,7 +18,6 @@ def f():
        max_num = max_entry.get()
        if int(min_num) < int(max_num):
            r = random.randint(int(min_num),int(max_num))
-           print(r)
            min_entry['state'] = 'disabled'
            max_entry['state'] = 'disabled'
            btn['state'] = 'disabled'
